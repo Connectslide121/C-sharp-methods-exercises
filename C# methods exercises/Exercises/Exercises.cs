@@ -46,7 +46,6 @@ namespace C__methods_exercises.Exercises
         public static string UserInfo(string firstName, string lastName) //**************EXERCISE 05***************
         {
             string userInfo = ($"{lastName}, {firstName}");
-            Console.WriteLine(userInfo);
 
             return userInfo;
         }

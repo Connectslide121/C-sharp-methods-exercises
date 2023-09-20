@@ -2,12 +2,13 @@
 
 using C__methods_exercises.Exercises;
 
-Exercises.UserName();
+string userName = Exercises.UserName();
 
-Exercises.Hashtag();
+string hashtag = Exercises.Hashtag();
 
-Exercises.Definition("What is the hashtag about?");
+string definition = Exercises.Definition("What is the hashtag about?");
 
-Exercises.Priority("number");
+string priority = Exercises.Priority("number");
 
-Exercises.UserInfo("Jon", "Mendizabal");
+string userInfo = Exercises.UserInfo($"{userName}", "See you");
+Console.WriteLine(userInfo);
