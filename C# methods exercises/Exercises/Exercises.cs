@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace C__methods_exercises.Exercises
 {
-    internal class Exercises
+    public class Exercises
     {
         public static string UserName() //**************EXERCISE 01***************
         {
